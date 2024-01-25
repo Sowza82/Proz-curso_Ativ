@@ -1,0 +1,19 @@
+@everyone vai aí um resuminho dos principais comandos de terminal do git:
+
+# começando um novo projeto?
+git init
+git commit -m 'commit inicial'
+git checkout -b nova_branch
+
+# fez alterações na sua branch de trabalho?
+git add --all
+git commit -m "alterações concluídas"
+
+# quer adicionar seu trabalho ao projeto final?
+git checkout main
+git merge nova_branch
+
+# se perdeu?
+git status
+git log --oneline
+git branch
