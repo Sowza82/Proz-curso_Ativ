@@ -1,4 +1,4 @@
 # Curso Front-End
 # Turma 20
 - Atividades desenvolvidas pelo :
-- Joe e online.
+- Joe class e online.
