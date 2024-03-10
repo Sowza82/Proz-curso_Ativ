@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: border-box;
+}
+:root{
+  font-size: 62.5%; 
+  --nav-bg-color:#691465;
+  --nav-text-color:white;
+  --button-bg-color:#ff3278;
+  --button-text-color:white;
+
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: var(--nav-bg-color);
+    display: flex;
+    justify-content:space-between;
+    padding:8px;
+    margin-bottom: 12px;
+  }
+a{
+    text-decoration: none;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:var(--nav-bg-color);
+    color: var(--nav-text-color);
+    height:6rem;
+
+    padding:0 2.4rem;
+}
+
+ul{
+ display:flex;
+ align-items: center;
+ list-style: none;
+ gap:2rem;  
+}
+

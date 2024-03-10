@@ -1,0 +1,32 @@
+h1{
+  color:blue ; 
+  background-color:#ff23e4;
+  text-align: center;
+}
+
+div{
+    background-color:lightcoral;
+    margin:40px;
+    padding:20px;
+    border:solid  0 2px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    margin-top: 6px;
+    padding-top: 6px;
+}
+
+p{
+    background-color:rgb(182, 255, 204);
+    margin: 20px;
+    padding: 10px;
+}
+.caixa{
+ background-color: aqua;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#ultima-caixa{
+    margin: 20px;
+    padding: 10px;
+}

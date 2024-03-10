@@ -1,0 +1,57 @@
+header {
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+header, footer {
+  background: #37033b;
+  color: white;
+  padding: 16px;
+}
+
+#logo-header {
+  font-size: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  background-color: #7a147a;
+  padding: 16px;
+  color: white;
+  font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+.img {
+  margin: 32px;
+  text-align: center;
+}
+
+.rede-social {
+  font-family: 'Segoe UI', Verdana, sans-serif;
+  margin: 8px;
+  padding: 8px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+li, .rede-social {
+  margin-left: 48px;
+}
+
+a{
+  text-decoration:none;
+}

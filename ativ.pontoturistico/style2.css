@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-color:#f1b940 ;
+    background-color:#d5a7d6 ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
 nav {
     
-    background-color: #cf9310; 
+    background-color: #5b0863; 
     padding: 30px; 
 }
 
@@ -41,12 +41,14 @@ nav ul li a:hover {
 }
 
 .galeria{
+justify-content:center;
 text-align: center;
+border-radius: 20px;
 }
 
 
 footer {
-    background-color: #cf9310; 
+    background-color: #5f125b; 
     color: white; 
     padding: 10px; 
     text-align: center; 
